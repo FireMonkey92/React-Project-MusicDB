@@ -29,7 +29,6 @@ a{
     font-size: 43px;
     color: #eaeaea;
     text-align: center; */
-
     text-align: center;
     font-weight: 500;
     /* Set the txt Decoration to the center of the Banner div : Note that parent position should be relative>absolutre */
@@ -37,10 +36,10 @@ a{
     top: 50%;
     left:  50%;
     transform: translate(-50% , -50%);
-
+    width: 100%;
     color: #eaeaea;
     text-shadow: 0px;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
 }
 
 .banner > span{

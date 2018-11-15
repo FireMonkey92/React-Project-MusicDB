@@ -6,5 +6,4 @@ class Artists extends Component {
     }
 
 }
-
 export default Artists;

@@ -6,6 +6,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 import Home from './components/home';
 import Artist from './components/artists';
 
+
 const App = () => {
     return(
         <BrowserRouter>
