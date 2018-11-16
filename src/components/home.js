@@ -5,6 +5,8 @@ import React,{Component} from 'react';
 import Banner from './banner';
 import ArtistList from './artistList';
 
+
+
 //API Link
 const URL_ARTISTS = "http://localhost:3004/artists";
 

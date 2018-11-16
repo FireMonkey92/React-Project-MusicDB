@@ -13,7 +13,7 @@ a{
 ========================================================*/
 .banner .main-covor{
     background: url('../images/cover.png');
-    height:  465px;
+    height:  70vw;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -84,4 +84,16 @@ a{
     /* font-size: 30px; */
     font-weight: 100;
     margin: 20px 0px;
+}
+
+
+/*======================================================
+                       Artist Detrails CSS
+========================================================*/
+
+.header{
+    font-family: 'Monoton','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
 }
