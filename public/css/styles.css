@@ -63,9 +63,8 @@ a{
     width: 100%;
     background-size: cover !important;
     margin-bottom: 20px;
-    
     position: relative;
-    background-position: center;
+    background-position: center !important;
 }
 
 .artists_list  .artist_item  div{
@@ -90,16 +89,63 @@ a{
 /*======================================================
                        Artist Detrails CSS
 ========================================================*/
-.header{
-    font-family: 'Monoton','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    /* padding: 20px; */
+header{
+    font-family: 'Monoton';
+    font-size: 33px;
+    color: #969696;
     text-align: center;
     position: relative;
+    border-bottom: 2px solid #2196f3;
+}
+.backbutton{
+    bottom: 10px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/arrows-4/512/arrow_5-512.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.headerBottom{
+.artist_bio{ 
+ box-sizing: border-box;
+ padding: 5px 20px;
+}
+
+@media only screen and (min-width: 450px) {
+    .artist_bio .avatar span{
+        height: 300px !important ;
+        width: 300px  !important;
+    }
+}
+.artist_bio .avatar span{
+    height: 50vw ;
+    width: 50vw;
     display: block;
-    height: 3px;
-    background-color: #2196f3;
+    margin: 0 auto;
+    background-size: cover !important;
+    background-position: center;
+}
+
+.artist_bio h3{
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.artist_bio .bio_text{
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    /* text-justify: inter-word !important; */
+}
+
+/*======================================================
+                       Album  Detrails CSS
+========================================================*/
+
+.album-container{
+    box-sizing: border-box;
+    margin: 0 auto;
 }
