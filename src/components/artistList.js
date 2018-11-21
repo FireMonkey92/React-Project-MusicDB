@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 const ArtistList = (props) => {
 
     const list = ({ allArtists }) => {
-        console.log(allArtists);
-
         // to check that All artists has data or not , if yes , rander divs
         // Without this it wll throws error as  first time when applictaion get loads , this allArtist variable is empty array
         if (allArtists) {
@@ -17,7 +15,6 @@ const ArtistList = (props) => {
                     <Link key={item.id} to={`/artist/${item.id}`} className='artist_item'  style={style}>
                             <div>{item.name}</div>
                     </Link>
-
                 )
             })
         }

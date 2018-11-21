@@ -149,3 +149,24 @@ header{
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+/*======================================================
+                       Album List  Detrails CSS
+========================================================*/
+
+.album_list{
+ box-sizing: border-box;
+ margin: 20px;
+}
+
+.album_list::after{
+    display: table; 
+    clear: both;
+    content: '';
+}
+.album_list > img{
+    width: 50%;
+    float: left;
+    background-size: cover;
+    /* margin: 1px; */
+}

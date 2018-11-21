@@ -7,11 +7,9 @@ const AlbumList = (props) => {
     const LoadList = ({AlbumList}) =>{    
         
         if(AlbumList){
-            console.log(AlbumList);
-            
             return AlbumList.map((item, index) => {
                 return(
-                    <img key ={index} src={`/images/covers/${item.cover}.jpg`}/>
+                   <img alt="No Images Loaded" key={index} src={`/images/albums/${item.cover}.jpg`}/>
                 )
             })
         }  

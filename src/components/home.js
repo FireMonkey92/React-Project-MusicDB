@@ -5,16 +5,13 @@ import React,{Component} from 'react';
 import Banner from './banner';
 import ArtistList from './artistList';
 
-
-
 //API Link
-const URL_ARTISTS = "http://localhost:3004/artists";
+const URL_ARTISTS = "https://my-json-server.typicode.com/FireMonkey92/React-Project-MusicDB/artists/";
 
 class Home extends Component{
 
     constructor(props){
         super(props);
-
         // States Defined For seting the lists of the artists 
         this.state = {
             artists : ""
